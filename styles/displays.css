@@ -108,3 +108,43 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
 }
+
+.grip-gap-1{
+    grid-gap: .5rem;
+}
+
+.grip-gap-2{
+    grid-gap: 1rem;
+}
+
+.grip-gap-3{
+    grid-gap: 1.5rem;
+}
+
+.grip-gap-4{
+    grid-gap: 2rem;
+}
+
+.grip-gap-5{
+    grid-gap: 2.5rem;
+}
+
+.grip-gap-6{
+    grid-gap: 3rem;
+}
+
+.grip-gap-7{
+    grid-gap: 3.5rem;
+}
+
+.grip-gap-8{
+    grid-gap: 4rem;
+}
+
+.grip-gap-9{
+    grid-gap: 4.5rem;
+}
+
+.grip-gap-10{
+    grid-gap: 5rem;
+}

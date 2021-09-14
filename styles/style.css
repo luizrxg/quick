@@ -40,45 +40,45 @@ input{
 
 /* displays */
 
-@import url(styles/displays.css);
+@import url(displays.css);
 
 /* content sizing */
 
-@import url(styles/content-sizing.css);
+@import url(content-sizing.css);
 
 /* content positioning */
 
-@import url(styles/content-positioning.css);
+@import url(content-positioning.css);
 
 /* text sizes */
 
-@import url(styles/text-sizes.css);
+@import url(text-sizes.css);
 
 /* text weights */
 
-@import url(styles/text-weights.css);
+@import url(text-weights.css);
 
 /* text fonts */
 
-@import url(styles/text-fonts.css);
+@import url(text-fonts.css);
 
 /* buttons */
 
-@import url(styles/buttons.css);
+@import url(buttons.css);
 
 /* corners */
 
-@import url(styles/cornerns.css);
+@import url(corners.css);
 
 /* animations  */
 
-@import url(styles/animations.css);
+@import url(animations.css);
 
 /* margins */
 
-@import url(styles/margins.css);
+@import url(margins.css);
 
 /* paddings */
 
-@import url(styles/paddings.css);
+@import url(paddings.css);
 
