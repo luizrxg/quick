@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -40,45 +41,45 @@ input{
 
 /* displays */
 
-@import url(displays.css);
+@import 'styles/displays.css';
 
 /* content sizing */
 
-@import url(content-sizing.css);
+@import 'styles/content-sizing.css';
 
 /* content positioning */
 
-@import url(content-positioning.css);
+@import 'styles/content-positioning.css';
 
 /* text sizes */
 
-@import url(text-sizes.css);
+@import 'styles/text-sizes.css';
 
 /* text weights */
 
-@import url(text-weights.css);
+@import 'styles/text-weights.css';
 
 /* text fonts */
 
-@import url(text-fonts.css);
+@import 'styles/text-fonts.css';
 
 /* buttons */
 
-@import url(buttons.css);
+@import 'styles/buttons.css';
 
 /* corners */
 
-@import url(corners.css);
+@import 'styles/corners.css';
 
 /* animations  */
 
-@import url(animations.css);
+@import 'styles/animations.css';
 
 /* margins */
 
-@import url(margins.css);
+@import 'styles/margins.css';
 
 /* paddings */
 
-@import url(paddings.css);
+@import 'styles/paddings.css';
 
