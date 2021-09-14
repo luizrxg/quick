@@ -1,0 +1,43 @@
+.txt-weight-1{
+    font-weight: 100;
+}
+
+.txt-weight-2{
+    font-weight: 200;
+}
+
+.txt-weight-3{
+    font-weight: 300;
+}
+
+.txt-weight-4{
+    font-weight: 400;
+}
+
+.txt-weight-5{
+    font-weight: 500;
+}
+
+.txt-weight-6{
+    font-weight: 600;
+}
+
+.txt-weight-7{
+    font-weight: 700;
+}
+
+.txt-weight-8{
+    font-weight: 800;
+}
+
+.txt-weight-9{
+    font-weight: 900;
+}
+
+.txt-weight-bolder{
+    font-weight: lighter;
+}
+
+.txt-weight-lighet{
+    font-weight: bolder;
+}

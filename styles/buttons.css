@@ -1,0 +1,23 @@
+.btn{
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+}
+
+.btn:active{
+    opacity: 80%;
+}
+
+.btn-1{
+    color: var(--primary);
+    background-color: var(--secondary);
+    border: solid 2px var(--primary);
+}
+
+.btn-2{
+    color: var(--primary);
+    background-color: var(--secondary);
+}

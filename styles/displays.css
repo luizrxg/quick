@@ -1,0 +1,110 @@
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.grid-row-1{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.grid-row-2{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.grid-row-3{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.grid-row-4{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.grid-row-5{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.grid-row-6{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+.grid-row-7{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+}
+
+.grid-row-8{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+}
+
+.grid-row-9{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+}
+
+.grid-row-10{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+}
+
+.grid-col-1{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.grid-col-2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-col-3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-col-4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-col-5{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.grid-col-6{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.grid-col-7{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.grid-col-8{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.grid-col-9{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.grid-col-10{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}

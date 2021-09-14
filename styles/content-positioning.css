@@ -1,0 +1,39 @@
+.aln-center{
+    align-items: center;
+}
+
+.aln-start{
+    align-items: flex-start;
+}
+
+.aln-end{
+    align-items: flex-end;
+}
+
+.aln-self-center{
+    align-self: center;
+}
+
+.aln-self-start{
+    align-self: flex-start;
+}
+
+.aln-self-end{
+    align-self: flex-end;
+}
+
+.jst-1{
+    justify-content: space-around;
+}
+
+.jst-2{
+    justify-content: space-around;
+}
+
+.jst-3{
+    justify-content: space-around;
+}
+
+.jst-center{
+    justify-content: center;
+}
