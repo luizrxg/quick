@@ -41,3 +41,12 @@
 .inp-3:focus{
     border-bottom: solid 2px var(--primary);
 }
+
+.inp-4{
+    border: solid 2px var(--secondary);
+    backdrop-filter: blur(25px);
+}
+
+.inp-4:focus{
+    border: solid 2px var(--primary);
+}
