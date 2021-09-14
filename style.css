@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 
 *{
@@ -12,8 +12,8 @@
 }
 
 :root{
-    --primary: #FFF;
-    --secondary: #000;
+    --primary: #000;
+    --secondary: #fff;
 }
 
 html, body{
@@ -23,7 +23,7 @@ html, body{
 }
 
 body > *:hover, *:active, *:focus *:not(:hover), *:not(:active), *:not(:focus){
-    transition: 150ms;
+    transition: 200ms;
 }
 
 a{
@@ -36,50 +36,56 @@ button{
 }
 
 input{
+    -webkit-appearance: none;
     outline: none;
+    border: none;
 }
 
 /* displays */
 
-@import 'styles/displays.css';
+@import "styles/displays.css";
 
 /* content sizing */
 
-@import 'styles/content-sizing.css';
+@import "styles/content-sizing.css";
 
 /* content positioning */
 
-@import 'styles/content-positioning.css';
+@import "styles/content-positioning.css";
 
 /* text sizes */
 
-@import 'styles/text-sizes.css';
+@import "styles/text-sizes.css";
 
 /* text weights */
 
-@import 'styles/text-weights.css';
+@import "styles/text-weights.css";
 
 /* text fonts */
 
-@import 'styles/text-fonts.css';
+@import "styles/text-fonts.css";
 
 /* buttons */
 
-@import 'styles/buttons.css';
+@import "styles/buttons.css";
+
+/* inputs */
+
+@import "styles/inputs.css";
 
 /* corners */
 
-@import 'styles/corners.css';
+@import "styles/corners.css";
 
 /* animations  */
 
-@import 'styles/animations.css';
+@import "styles/animations.css";
 
 /* margins */
 
-@import 'styles/margins.css';
+@import "styles/margins.css";
 
 /* paddings */
 
-@import 'styles/paddings.css';
+@import "styles/paddings.css";
 

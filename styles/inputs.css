@@ -1,0 +1,43 @@
+.inp{
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+.inp::-webkit-input-placeholder{
+    opacity: 70%;
+}
+
+.hide-arrows::-webkit-inner-spin-button{
+    display: none;
+}
+
+.hide-calendar::-webkit-calendar-picker-indicator{
+    filter: opacity(0);
+}
+
+.inp-1{
+    border: solid 2px var(--secondary);
+    background-color: transparent;
+}
+
+.inp-1:focus{
+    border: solid 2px var(--primary);
+}
+
+.inp-2{
+    background-color: var(--primary);
+    opacity: 30%;
+}
+
+.inp-2:focus{
+    background-color: var(--secondary);
+}
+
+.inp-3{
+    border-bottom: solid 2px var(--secondary);
+    background-color: transparent;
+}
+
+.inp-3:focus{
+    border-bottom: solid 2px var(--primary);
+}

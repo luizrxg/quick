@@ -8,23 +8,34 @@
 }
 
 .btn:active{
-    opacity: 80%;
+    opacity: 50%;
 }
 
 
 .btn-1{
-    color: var(--primary);
-    background-color: var(--secondary);
+    color: var(--secondary);
+    background-color: var(--primary);
 }
 
 .btn-2{
-    color: var(--primary);
+    color: var(--secondary);
     background-color: transparent;
-    border: solid 2px var(--primary);
+    border: solid 2px var(--secondary);
 }
 
 .btn-3{
-    color: var(--primary);
-    background-color: var(--secondary);
-    border: solid 2px var(--primary);
+    color: var(--secondary);
+    background-color: var(--primary);
+    border: solid 2px var(--secondary);
+}
+
+.btn-4{
+    color: var(--secondary);
+    backdrop-filter: blur(25px);
+}
+
+.btn-5{
+    color: var(--secondary);
+    backdrop-filter: blur(25px);
+    border: solid 2px var(--secondary);
 }
