@@ -5,23 +5,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
+/* animations */
 @import "styles/animations.css";
-@import "styles/box-sizing.css";
+
+/* box-sizings */
+@import "styles/box-sizings.css";
+
+/* buttons */
 @import "styles/buttons.css";
+
+/* content-positioning */
 @import "styles/content-positioning.css";
+
+/* content-sizing */
 @import "styles/content-sizing.css";
+
+/* corners */
 @import "styles/corners.css";
+
+/* displays */
 @import "styles/displays.css";
+
+/* extras */
+@import "styles/extras.css";
+
+/* inputs */
 @import "styles/inputs.css";
+
+/* margins */
 @import "styles/margins.css";
+
+/* paddings */
 @import "styles/paddings.css";
+
+/* positions */
 @import "styles/positions.css";
+
+/* scroll */
 @import "styles/scroll.css";
+
+/* selects */
 @import "styles/selects.css";
+
+/* shadows */
 @import "styles/shadows.css";
+
+/* text-align */
+@import "styles/text-align.css";
+
+/* text-colors */
 @import "styles/text-colors.css";
+
+/* text-fonts */
 @import "styles/text-fonts.css";
+
+/* text-sizes */
 @import "styles/text-sizes.css";
+
+/* text-weights */
 @import "styles/text-weights.css";
 
 *{

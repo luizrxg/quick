@@ -23,18 +23,32 @@
     filter: invert(100%);
 }
 
+@keyframes focus-bg{
+    from{
+        background-color: #FFFFFF50;
+    }
+
+    to{
+        background-color: transparent
+    }
+}
+
 .inp-1{
     border: solid 2px var(--inpsecondary);
+    color: var(--inpsecondary);
     background-color: transparent;
 }
 
 .inp-1:focus{
     border: solid 2px var(--inpprimary);
+    color: var(--inpprimary);
+    animation: focus-bg 1s;
 }
 
 .inp-2{
     border: solid 2px var(--inpprimary);
     background-color: var(--inpprimary);
+    color: var(--inpsecondary);
 }
 
 .inp-2:focus{
@@ -44,27 +58,34 @@
 .inp-3{
     border: solid 2px var(--inpsecondary);
     background-color: var(--inpprimary);
+    color: var(--inpsecondary);
 }
 
 .inp-3:focus{
     border: solid 2px var(--inpprimary);
     background-color: var(--inpsecondary);
+    color: var(--inpprimary);
 }
 
 .inp-4{
-    background-color: var(--inpprimary);
+    background-color: #FFF;
+    color: #000;
     opacity: 30%;
 }
 
 .inp-4:focus{
-    background-color: var(--inpsecondary);
+    background-color: #000;
+    color: #FFF;
 }
 
 .inp-5{
     border-bottom: solid 2px var(--inpsecondary);
+    color: var(--inpsecondary);
     background-color: transparent;
 }
 
 .inp-5:focus{
     border-bottom: solid 2px var(--inpprimary);
+    color: var(--inpprimary);
+    animation: focus-bg 1s;
 }
