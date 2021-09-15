@@ -1,0 +1,80 @@
+
+.scrollbar::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+.show-scrollbar::-webkit-scrollbar{
+    display: initial;
+}
+
+.hide-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+.scrollbar-1::-webkit-scrollbar-track{
+    background-color: var(--secondary);
+}
+
+.scrollbar-1::-webkit-scrollbar-thumb{
+    background-color: var(--primary);
+    border-radius: 1rem;
+    border: solid 3px transparent;
+    background-clip: content-box;
+}
+
+.scrollbar-2::-webkit-scrollbar-track{
+    background-color: var(--primary);
+}
+
+.scrollbar-2::-webkit-scrollbar-thumb{
+    background-color: var(--secondary);
+    border-radius: 1rem;
+    border: solid 3px transparent;
+    background-clip: content-box;
+}
+
+.scrollbar-3::-webkit-scrollbar-track{
+    background-color: var(--secondary);
+    border-radius: 1rem;
+}
+
+.scrollbar-3::-webkit-scrollbar-thumb{
+    background-color: var(--primary);
+    border-radius: 1rem;
+    border: solid 3px transparent;
+    background-clip: content-box;
+}
+
+.scrollbar-4::-webkit-scrollbar-track{
+    background-color: var(--primary);
+    border-radius: 1rem;
+}
+
+.scrollbar-4::-webkit-scrollbar-thumb{
+    background-color: var(--secondary);
+    border-radius: 1rem;
+    border: solid 3px transparent;
+    background-clip: content-box;
+}
+
+.scrollbar-5::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.scrollbar-5::-webkit-scrollbar-thumb{
+    background-color: var(--primary);
+    border-radius: 1rem;
+    border: solid 3px transparent;
+    background-clip: content-box;
+}
+
+.scrollbar-6::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.scrollbar-6::-webkit-scrollbar-thumb{
+    background-color: var(--secondary);
+    border-radius: 1rem;
+    border: solid 3px transparent;
+    background-clip: content-box;
+}

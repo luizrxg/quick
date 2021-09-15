@@ -7,12 +7,16 @@
     opacity: 70%;
 }
 
-.hide-arrows::-webkit-inner-spin-button{
+.inp-hide-arrows::-webkit-inner-spin-button{
     display: none;
 }
 
-.hide-calendar::-webkit-calendar-picker-indicator{
+.inp-hide-calendar::-webkit-calendar-picker-indicator{
     filter: opacity(0);
+}
+
+.inp-calendar-color-white::-webkit-calendar-picker-indicator{
+    filter: invert(100%);
 }
 
 .inp-1{

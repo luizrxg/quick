@@ -5,6 +5,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
+@import "styles/animations.css";
+@import "styles/buttons.css";
+@import "styles/content-positioning.css";
+@import "styles/content-sizing.css";
+@import "styles/corners.css";
+@import "styles/displays.css";
+@import "styles/inputs.css";
+@import "styles/margins.css";
+@import "styles/paddings.css";
+@import "styles/positions.css";
+@import "styles/scrollbars.css";
+@import "styles/text-colors.css";
+@import "styles/text-fonts.css";
+@import "styles/text-sizes.css";
+@import "styles/text-weights.css";
 
 *{
     margin: 0;
@@ -26,8 +41,19 @@ body > *:hover, *:active, *:focus *:not(:hover), *:not(:active), *:not(:focus){
     transition: 200ms;
 }
 
-a{
+a[href]{
     text-decoration: none;
+    color: initial;
+}
+
+a[href]:hover{
+    text-decoration: none;
+    opacity: 80%;
+}
+
+a[href]:active{
+    text-decoration: none;
+    opacity: 30%;
 }
 
 button{
@@ -40,52 +66,4 @@ input{
     outline: none;
     border: none;
 }
-
-/* displays */
-
-@import "styles/displays.css";
-
-/* content sizing */
-
-@import "styles/content-sizing.css";
-
-/* content positioning */
-
-@import "styles/content-positioning.css";
-
-/* text sizes */
-
-@import "styles/text-sizes.css";
-
-/* text weights */
-
-@import "styles/text-weights.css";
-
-/* text fonts */
-
-@import "styles/text-fonts.css";
-
-/* buttons */
-
-@import "styles/buttons.css";
-
-/* inputs */
-
-@import "styles/inputs.css";
-
-/* corners */
-
-@import "styles/corners.css";
-
-/* animations  */
-
-@import "styles/animations.css";
-
-/* margins */
-
-@import "styles/margins.css";
-
-/* paddings */
-
-@import "styles/paddings.css";
 
