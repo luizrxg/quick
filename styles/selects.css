@@ -1,0 +1,12 @@
+.select{
+    padding: .2rem;
+    border: none;
+}
+
+.select > option{
+    border: none;
+}
+
+.select:focus-visible{
+    outline: none;
+}

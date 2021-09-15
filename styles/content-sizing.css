@@ -1,4 +1,4 @@
-.width-fitcont{
+.width-fit{
     width: fit-content;
 }
 
@@ -82,7 +82,7 @@
     width: 100%;
 }
 
-.height-fitcont{
+.height-fit{
     height: fit-content;
 }
 
@@ -166,7 +166,7 @@
     height: 100%;
 }
 
-.all-fitcont{
+.all-fit{
     width: fit-content;
     height: fit-content;
 }

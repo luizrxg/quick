@@ -7,32 +7,39 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <style>
-        body{
-            background-image: url(https://wallpapercave.com/wp/wp6374906.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
+        header, footer{
+            background: linear-gradient(170deg, #7F52FF 0%, #4400ff 100%);
         }
 
-        div{
-            max-height: 150px;
-            overflow: auto;
+        .logo{
+            height: 3rem;
+            width: auto;  
+            filter: invert(100%);
         }
     </style>
 </head>
-<body class="flex-col aln-center jst-center">
-    <div class="container all-fitcont flex-col scrollbar scrollbar-6">
-        <input type="text" 
-        class="inp txt-color-black inp-2 corner-1 txt-font-4 txt-weight-bolder inp-hide-arrows slide-left" 
-        placeholder="teste"
-        />
-        <button
-        class="btn btn-1 mgn-y-3 txt-size-1 txt-weight-bolder corner-1 txt-font-4 all-100 aln-self-center popup"
-        >Botao</button>
-        <a href="#" class="txt-size-1 txt-weight-bolder">AAA<a>
-        <h1>AAA</h1>
-        <h1>AAA</h1>
-    </div>
+<body class="flex-col">
+    <header class="flex-row border-box pdn-1 jst-between aln-center width-100 height-fit">
+        <img class="logo" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png"/>
+        <input type="search" placeholder="Pesquisar..." class="inp inp-4 corner-2 pdn-x-2 width-25 txt-font-2 txt-color-black"/>
+        <select class="select select-1">
+            <option>pao</option>
+            <option>alho</option>
+            <option>tomate</option>
+        </select>
+        <nav class="flex-row jst-around width-25">
+            <button class="btn btn-5 txt-size-1 txt-font-2 txt-weight-bolder">LINK</button>
+            <button class="btn btn-5 txt-size-1 txt-font-2 txt-weight-bolder">LINK</button>
+            <button class="btn btn-5 txt-size-1 txt-font-2 txt-weight-bolder">LINK</button>
+            <button class="btn btn-5 txt-size-1 txt-font-2 txt-weight-bolder">LINK</button>
+            <button class="btn btn-5 txt-size-1 txt-font-2 txt-weight-bolder">LINK</button>
+        </nav>
+    </header>
+    <main class="height-100">
+
+    </main>
+    <footer class="flex-row border-box pdn-1 jst-end aln-center width-100 height-fit">
+        <img class="logo" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png"/>
+    </footer>
 </body>
 </html>

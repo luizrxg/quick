@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 @import "styles/animations.css";
+@import "styles/box-sizing.css";
 @import "styles/buttons.css";
 @import "styles/content-positioning.css";
 @import "styles/content-sizing.css";
@@ -15,7 +16,9 @@
 @import "styles/margins.css";
 @import "styles/paddings.css";
 @import "styles/positions.css";
-@import "styles/scrollbars.css";
+@import "styles/scroll.css";
+@import "styles/selects.css";
+@import "styles/shadows.css";
 @import "styles/text-colors.css";
 @import "styles/text-fonts.css";
 @import "styles/text-sizes.css";
@@ -24,11 +27,17 @@
 *{
     margin: 0;
     padding: 0;
+    -webkit-appearance: none;
+    scroll-behavior: smooth;
 }
 
 :root{
-    --primary: #000;
-    --secondary: #fff;
+    --btnprimary: #000;
+    --btnsecondary: #fff;
+    --inpprimary: #000;
+    --inpsecondary: #fff;
+    --scrollprimary: #000;
+    --scrollsecondary: #fff;
 }
 
 html, body{
@@ -57,12 +66,11 @@ a[href]:active{
 }
 
 button{
-    -webkit-appearance: none;
     border: none;
+    background-color: transparent;
 }
 
 input{
-    -webkit-appearance: none;
     outline: none;
     border: none;
 }

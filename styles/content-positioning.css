@@ -22,18 +22,26 @@
     align-self: flex-end;
 }
 
-.jst-1{
-    justify-content: space-around;
-}
-
-.jst-2{
-    justify-content: space-around;
-}
-
-.jst-3{
-    justify-content: space-around;
-}
-
 .jst-center{
     justify-content: center;
+}
+
+.jst-start{
+    justify-content: flex-start
+}
+
+.jst-end{
+    justify-content: flex-end
+}
+
+.jst-around{
+    justify-content: space-around;
+}
+
+.jst-between{
+    justify-content: space-between;
+}
+
+.jst-evenly{
+    justify-content: space-evenly;
 }
