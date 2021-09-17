@@ -24,12 +24,16 @@
             background-attachment: fixed; 
             background-position: center;
         }
+
+        main > div{
+            background-color: #449944;
+        }
     </style>
 </head>
 <body class="flex-col">
     <header class="flex-row border-box pdn-x-1 pdn-y-2 jst-between aln-center width-100 height-fit">
         <img id="logo" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png"/>
-        <input type="search" placeholder="Pesquisar..." class="inp inp-3 corner-1 pdn-x-2 width-35 txt-font-2" />
+        <input type="search" placeholder="Pesquisar..." class="inp inp-4 corner-1 pdn-x-2 width-35 txt-font-2" />
         <nav class="flex-row jst-around width-25">
             <button class="btn btn-5 txt-size-1 txt-font-2 txt-weight-bolder">LINK</button>
             <button class="btn btn-5 txt-size-1 txt-font-2 txt-weight-bolder">LINK</button>
@@ -39,14 +43,13 @@
         </nav>
     </header>
     <main class="flex-col height-100">
-        <form class="flex-col aln-center jst-between height-fit width-25 pdn-2 mgn-auto corner-1 glass shadow-3">
-            <h1 class="txt-font-2 txt-size-3 txt-color-white aln-self-start mgn-x-auto">Login</h1>
-            <h1 class="txt-font-2 txt-size-2 txt-color-white aln-self-start">Email</h1>
-            <input type="email" class="inp inp-5 width-100 txt-font-2"/>
-            <h1 class="txt-font-2 txt-size-2 txt-color-white aln-self-start mgn-top-1">Senha</h1>
-            <input type="password" class="inp inp-5 width-100 txt-font-2 mgn-bot-2"/>
-            <button class="btn btn-2 width-100 corner-1 txt-size-2 txt-font-2 txt-weight-bolder"> Logar </button>
-        </form>
+        <div class="flex-col all-fit pdn-2 mgn-auto">
+            <select class="select">
+                <option>123</option>
+                <option>123</option>
+                <option>123</option>
+            </select>
+        </div>
     </main>
     <footer class="flex-row border-box pdn-x-1 pdn-y-2 jst-end aln-center width-100 height-fit">
         <img id="logo" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png"/>

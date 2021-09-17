@@ -3,10 +3,14 @@
     border: none;
 }
 
+.select:focus-visible{
+    outline: none;
+}
+
 .select > option{
     border: none;
 }
 
-.select:focus-visible{
-    outline: none;
+.select > option:hover{
+
 }
