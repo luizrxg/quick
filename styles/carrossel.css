@@ -1,0 +1,40 @@
+#carrossel-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    overflow: auto;
+    margin: .5rem 0;
+}
+
+#carrossel-left-btn{
+    
+}
+
+#carrossel-right-btn{
+    
+}
+
+#carrossel-imgs{
+    display: flex;
+    flex-direction: row;
+    width: 720px;
+    max-width: 720px;
+    height: fit-content;
+    overflow: auto;
+    align-self: center;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+
+#carrossel-imgs::-webkit-scrollbar{
+    display: none;
+}
+
+.carrossel-img{
+    min-width: 720px;
+    width: 720px;
+    min-height: auto;
+    height: auto;
+}

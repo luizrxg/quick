@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <script src="script.js"></script>
     <style>
         header, footer{
             background: #449944;
@@ -18,11 +18,7 @@
         }
 
         main{
-            background-image: url(https://wallpaperaccess.com/full/783289.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed; 
-            background-position: center;
+            background-color: #008000;
         }
     </style>
 </head>
@@ -39,14 +35,15 @@
         </nav>
     </header>
     <main class="flex-col height-100">
-        <form class="flex-col aln-center jst-between height-fit width-25 pdn-2 mgn-auto corner-1 glass shadow-3">
-            <h1 class="txt-font-2 txt-size-3 txt-color-white aln-self-start mgn-x-auto">Login</h1>
-            <h1 class="txt-font-2 txt-size-2 txt-color-white aln-self-start">Email</h1>
-            <input type="email" class="inp inp-5 width-100 txt-font-2"/>
-            <h1 class="txt-font-2 txt-size-2 txt-color-white aln-self-start mgn-top-1">Senha</h1>
-            <input type="password" class="inp inp-5 width-100 txt-font-2 mgn-bot-2"/>
-            <button class="btn btn-2 width-100 corner-1 txt-size-2 txt-font-2 txt-weight-bolder"> Logar </button>
-        </form>
+        <div id="carrossel-container">
+            <button id="carrossel-left-btn"></button>
+            <div id="carrossel-imgs">
+                <img class="carrossel-img" src="http://via.placeholder.com/1280x720.png">
+                <img class="carrossel-img" src="http://via.placeholder.com/1280x720.png">
+                <img class="carrossel-img" src="http://via.placeholder.com/1280x720.png">
+            </div>
+            <button id="carrossel-right-btn"></button>
+        </div>
     </main>
     <footer class="flex-row border-box pdn-x-1 pdn-y-2 jst-end aln-center width-100 height-fit">
         <img id="logo" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png"/>
