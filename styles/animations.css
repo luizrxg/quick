@@ -13,6 +13,34 @@
     }
 }
 
+.slide-down-left{
+    animation: slide-down-left 1s;
+}
+
+@keyframes slide-down-left{
+    from{
+        transform: translate(100%, -100%)
+    }
+
+    to{
+        transform: none;
+    }
+}
+
+.slide-down-right{
+    animation: slide-down-right 1s;
+}
+
+@keyframes slide-down-right{
+    from{
+        transform: translate(-100%, -100%)
+    }
+
+    to{
+        transform: none;
+    }
+}
+
 .slide-up{
     animation: slide-up 1s;
 }
@@ -20,6 +48,34 @@
 @keyframes slide-up{
     from{
         transform: translate(0, 100%)
+    }
+
+    to{
+        transform: none;
+    }
+}
+
+.slide-up-left{
+    animation: slide-up-left 1s;
+}
+
+@keyframes slide-up-left{
+    from{
+        transform: translate(100%, 100%)
+    }
+
+    to{
+        transform: none;
+    }
+}
+
+.slide-up-right{
+    animation: slide-up-right 1s;
+}
+
+@keyframes slide-up-right{
+    from{
+        transform: translate(-100%, 100%)
     }
 
     to{
