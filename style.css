@@ -38,6 +38,9 @@
 /* margins */
 @import "styles/margins.css";
 
+/* object-fit */
+@import "styles/object-fits.css";
+
 /* paddings */
 @import "styles/paddings.css";
 
