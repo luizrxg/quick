@@ -74,8 +74,13 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
+    outline: 0;
     -webkit-appearance: none;
-    scroll-behavior: smooth;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    user-select: none;
 }
 
 :root{
