@@ -71,10 +71,12 @@
     border: 0;
     outline: 0;
     -webkit-appearance: none;
+    -webkit-font-smoothing: antialiasing;
     text-decoration: none;
     background-color: transparent;
     box-sizing: border-box;
     user-select: none;
+    text-rendering: optimizeLegibility;
 }
 
 :root{
