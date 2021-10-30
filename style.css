@@ -79,7 +79,7 @@
     text-rendering: optimizeLegibility;
 }
 
-:root{
+html{
     --btnprimary: #000;
     --btnsecondary: #fff;
     --inpprimary: #000;
