@@ -2,6 +2,10 @@
     padding: auto;
 }
 
+.pdn-0{
+    padding: 0;
+}
+
 .pdn-1{
     padding: .5rem;
 }
@@ -45,6 +49,11 @@
 .pdn-x-auto{
     padding-left: auto;
     padding-right: auto;
+}
+
+.pdn-x-0{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .pdn-x-1{
@@ -102,6 +111,11 @@
     padding-bottom: auto;
 }
 
+.pdn-y-0{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .pdn-y-1{
     padding-top: .5rem;
     padding-bottom: .5rem;
@@ -156,6 +170,10 @@
     padding-top: auto;
 }
 
+.pdn-top-0{
+    padding-top: 0;
+}
+
 .pdn-top-1{
     padding-top: .5rem;
 }
@@ -199,6 +217,10 @@
 
 .pdn-right-auto{
     padding-right: auto;
+}
+
+.pdn-right-0{
+    padding-right: 0;
 }
 
 .pdn-right-1{
@@ -245,6 +267,10 @@
     padding-bottom: auto;
 }
 
+.pdn-bot-0{
+    padding-bottom: 0;
+}
+
 .pdn-bot-1{
     padding-bottom: .5rem;
 }
@@ -287,6 +313,10 @@
 
 .pdn-left-auto{
     padding-left: auto;
+}
+
+.pdn-left-0{
+    padding-left: 0;
 }
 
 .pdn-left-1{
