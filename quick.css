@@ -219,6 +219,293 @@
 
 
 
+/* borders */
+.border-1{
+    border: solid 1px;
+}
+
+.border-2{
+    border: solid 1.5px;
+}
+
+.border-3{
+    border: solid 2px;
+}
+
+.border-4{
+    border: solid 2.5px;
+}
+
+.border-5{
+    border: solid 3px;
+}
+
+.border-6{
+    border: solid 3.5px;
+}
+
+.border-7{
+    border: solid 4px;
+}
+
+.border-8{
+    border: solid 4.5px;
+}
+
+.border-9{
+    border: solid 5px;
+}
+
+.border-bot-1{
+    border-bottom: solid 1px;
+}
+
+.border-bot-2{
+    border-bottom: solid 1.5px;
+}
+
+.border-bot-3{
+    border-bottom: solid 2px;
+}
+
+.border-bot-4{
+    border-bottom: solid 2.5px;
+}
+
+.border-bot-5{
+    border-bottom: solid 3px;
+}
+
+.border-bot-6{
+    border-bottom: solid 3.5px;
+}
+
+.border-bot-7{
+    border-bottom: solid 4px;
+}
+
+.border-bot-8{
+    border-bottom: solid 4.5px;
+}
+
+.border-bot-9{
+    border-bottom: solid 5px;
+}
+
+.border-top-1{
+    border-top: solid 1px;
+}
+
+.border-top-2{
+    border-top: solid 1.5px;
+}
+
+.border-top-3{
+    border-top: solid 2px;
+}
+
+.border-top-4{
+    border-top: solid 2.5px;
+}
+
+.border-top-5{
+    border-top: solid 3px;
+}
+
+.border-top-6{
+    border-top: solid 3.5px;
+}
+
+.border-top-7{
+    border-top: solid 4px;
+}
+
+.border-top-8{
+    border-top: solid 4.5px;
+}
+
+.border-top-9{
+    border-top: solid 5px;
+}
+
+.border-left-1{
+    border-left: solid 1px;
+}
+
+.border-left-2{
+    border-left: solid 1.5px;
+}
+
+.border-left-3{
+    border-left: solid 2px;
+}
+
+.border-left-4{
+    border-left: solid 2.5px;
+}
+
+.border-left-5{
+    border-left: solid 3px;
+}
+
+.border-left-6{
+    border-left: solid 3.5px;
+}
+
+.border-left-7{
+    border-left: solid 4px;
+}
+
+.border-left-8{
+    border-left: solid 4.5px;
+}
+
+.border-left-9{
+    border-left: solid 5px;
+}
+
+.border-right-1{
+    border-right: solid 1px;
+}
+
+.border-right-2{
+    border-right: solid 1.5px;
+}
+
+.border-right-3{
+    border-right: solid 2px;
+}
+
+.border-right-4{
+    border-right: solid 2.5px;
+}
+
+.border-right-5{
+    border-right: solid 3px;
+}
+
+.border-right-6{
+    border-right: solid 3.5px;
+}
+
+.border-right-7{
+    border-right: solid 4px;
+}
+
+.border-right-8{
+    border-right: solid 4.5px;
+}
+
+.border-right-9{
+    border-right: solid 5px;
+}
+
+.border-color-primary{
+    border-color: var(--primaryColor);
+}
+
+.border-color-secondary{
+    border-color: var(--secondaryColor);
+}
+
+.border-color-tertiary{
+    border-color: var(--tertiaryColor);
+}
+
+.border-color-white{
+    border-color: #fff;
+}
+
+.border-color-black{
+    border-color: #000;
+}
+
+.border-bot-color-primary{
+    border-bottom-color: var(--primaryColor);
+}
+
+.border-bot-color-secondary{
+    border-bottom-color: var(--secondaryColor);
+}
+
+.border-bot-color-tertiary{
+    border-bottom-color: var(--tertiaryColor);
+}
+
+.border-bot-color-white{
+    border-bottom-color: #fff;
+}
+
+.border-bot-color-black{
+    border-bottom-color: #000;
+}
+
+.border-top-color-primary{
+    border-top-color: var(--primaryColor);
+}
+
+.border-top-color-secondary{
+    border-top-color: var(--secondaryColor);
+}
+
+.border-top-color-tertiary{
+    border-top-color: var(--tertiaryColor);
+}
+
+.border-top-color-white{
+    border-top-color: #fff;
+}
+
+.border-top-color-black{
+    border-top-color: #000;
+}
+
+.border-left-color-primary{
+    border-left-color: var(--primaryColor);
+}
+
+.border-left-color-secondary{
+    border-left-color: var(--secondaryColor);
+}
+
+.border-left-color-tertiary{
+    border-left-color: var(--tertiaryColor);
+}
+
+.border-left-color-white{
+    border-left-color: #fff;
+}
+
+.border-left-color-black{
+    border-left-color: #000;
+}
+
+.border-right-color-primary{
+    border-right-color: var(--primaryColor);
+}
+
+.border-right-color-secondary{
+    border-right-color: var(--secondaryColor);
+}
+
+.border-right-color-tertiary{
+    border-right-color: var(--tertiaryColor);
+}
+
+.border-right-color-white{
+    border-right-color: #fff;
+}
+
+.border-right-color-black{
+    border-right-color: #000;
+}
+
+
+
+
+
+
+
 
 /* box-sizings */
 .border-box{
