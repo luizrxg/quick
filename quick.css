@@ -715,6 +715,198 @@
     width: 100%;
 }
 
+.min-width-320{
+    min-width: 320px;
+}
+
+.min-width-340{
+    min-width: 340px;
+}
+
+.min-width-360{
+    min-width: 360px;
+}
+
+.min-width-380px{
+    min-width: 380px;
+}
+
+.min-width-400{
+    min-width: 400px;
+}
+
+.min-width-420{
+    min-width: 420px;
+}
+
+.min-width-440{
+    min-width: 440px;
+}
+
+.min-width-460{
+    min-width: 460px;
+}
+
+.min-width-480{
+    min-width: 480px;
+}
+
+.min-width-500{
+    min-width: 500px;
+}
+
+.min-width-520{
+    min-width: 520px;
+}
+
+.min-width-540{
+    min-width: 540px;
+}
+
+.min-width-560{
+    min-width: 560px;
+}
+
+.min-width-580{
+    min-width: 580px;
+}
+
+.min-width-600{
+    min-width: 600px;
+}
+
+.min-width-620{
+    min-width: 620px;
+}
+
+.min-width-640{
+    min-width: 640px;
+}
+
+.min-width-680{
+    min-width: 680px;
+}
+
+.min-width-700{
+    min-width: 700px;
+}
+
+.min-width-720{
+    min-width: 720px;
+}
+
+.min-width-740{
+    min-width: 740px;
+}
+
+.min-width-760{
+    min-width: 760px;
+}
+
+.min-width-780{
+    min-width: 780px;
+}
+
+.min-width-800{
+    min-width: 800px;
+}
+
+.max-width-320{
+    max-width: 320px;
+}
+
+.max-width-340{
+    max-width: 340px;
+}
+
+.max-width-360{
+    max-width: 360px;
+}
+
+.max-width-380px{
+    max-width: 380px;
+}
+
+.max-width-400{
+    max-width: 400px;
+}
+
+.max-width-420{
+    max-width: 420px;
+}
+
+.max-width-440{
+    max-width: 440px;
+}
+
+.max-width-460{
+    max-width: 460px;
+}
+
+.max-width-480{
+    max-width: 480px;
+}
+
+.max-width-500{
+    max-width: 500px;
+}
+
+.max-width-520{
+    max-width: 520px;
+}
+
+.max-width-540{
+    max-width: 540px;
+}
+
+.max-width-560{
+    max-width: 560px;
+}
+
+.max-width-580{
+    max-width: 580px;
+}
+
+.max-width-600{
+    max-width: 600px;
+}
+
+.max-width-620{
+    max-width: 620px;
+}
+
+.max-width-640{
+    max-width: 640px;
+}
+
+.max-width-680{
+    max-width: 680px;
+}
+
+.max-width-700{
+    max-width: 700px;
+}
+
+.max-width-720{
+    max-width: 720px;
+}
+
+.max-width-740{
+    max-width: 740px;
+}
+
+.max-width-760{
+    max-width: 760px;
+}
+
+.max-width-780{
+    max-width: 780px;
+}
+
+.max-width-800{
+    max-width: 800px;
+}
+
 .height-fit{
     height: fit-content;
 }
