@@ -15,6 +15,62 @@
 
 
 /* animations */
+.fade-in{
+    animation: fade-in 1s;
+}
+
+@keyframes fade-in{
+    from { 
+        opacity: 0;
+    }
+
+    to{ 
+        opacity: 1;
+    }
+}
+
+.fade-out{
+    animation: fade-out 1s;
+}
+
+@keyframes fade-out{
+    from { 
+        opacity: 1;
+    }
+
+    to{ 
+        opacity: 0;
+    }
+}
+
+.rotate-left{
+    animation: rotate-left 1s;
+}
+
+@keyframes rotate-left{
+    from{
+        transform: rotate(-360deg)
+    }
+
+    to{
+        transform: none;
+    }
+}
+
+.rotate-right{
+    animation: rotate-right 1s;
+}
+
+@keyframes rotate-right{
+    from{
+        transform: rotate(360deg)
+    }
+
+    to{
+        transform: none;
+    }
+}
+
 .slide-down{
     animation: slide-down 1s;
 }
@@ -137,10 +193,22 @@
     }
 
     to{
-        transform: none;
+        transform: none
+    }
+}
+
+.popout{
+    animation: popout 1s;
+}
+
+@keyframes popout{
+    from{
+        transform: none
     }
 
-    
+    to{
+        transform: scale(0);
+    }
 }
 
 
