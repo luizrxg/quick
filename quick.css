@@ -1914,6 +1914,10 @@
 
 
 /* displays */
+.display-none{
+    display: none;
+}
+
 .inline-flex{
     display: inline-flex;
 }
