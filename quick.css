@@ -3709,16 +3709,24 @@
 
 
 /* text-colors */
-.txt-color-primary{
+.txt-color-1{
     color: var(--primaryColor);
 }
 
-.txt-color-secondary{
+.txt-color-2{
     color: var(--secondaryColor);
 }
 
-.txt-color-tertiary{
+.txt-color-3{
     color: var(--details);
+}
+
+.txt-color-4{
+    color: var(--mode);
+}
+
+.txt-color-5{
+    color: var(--bg);
 }
 
 .txt-color-white{
@@ -3870,20 +3878,32 @@
 }
 
 
+
+
+
+
+
+
+
+
 /* background-colors */
-.bg-color-primary{
+.bg-color-1{
     background-color: var(--primaryColor);
 }
 
-.bg-color-secondary{
+.bg-color-2{
     background-color: var(--secondaryColor);
 }
 
-.bg-color-tertiary{
+.bg-color-3{
     background-color: var(--details);
 }
 
-.bg-color{
+.bg-color-4{
+    background-color: var(--mode);
+}
+
+.bg-color-5{
     background-color: var(--bg);
 }
 
@@ -3904,16 +3924,24 @@
 
 
 /* fill */
-.fill-primary{
+.fill-1{
     fill: var(--primaryfill);
 }
 
-.fill-secondary{
+.fill-2{
     fill: var(--secondaryfill);
 }
 
-.fill-tertiary{
+.fill-3{
     fill: var(--details);
+}
+
+.fill-4{
+    fill: var(--mode);
+}
+
+.fill-5{
+    fill: var(--bg);
 }
 
 .fill-white{
@@ -3934,16 +3962,24 @@
 
 
 /* stroke */
-.stroke-primary{
+.stroke-1{
     stroke: var(--primarystroke);
 }
 
-.stroke-secondary{
+.stroke-2{
     stroke: var(--secondarystroke);
 }
 
-.stroke-tertiary{
+.stroke-3{
     stroke: var(--details);
+}
+
+.stroke-4{
+    stroke: var(--mode);
+}
+
+.stroke-5{
+    stroke: var(--bg);
 }
 
 .stroke-white{
