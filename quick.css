@@ -991,6 +991,198 @@
     height: 100%;
 }
 
+.min-height-320{
+    min-height: 320px;
+}
+
+.min-height-340{
+    min-height: 340px;
+}
+
+.min-height-360{
+    min-height: 360px;
+}
+
+.min-height-380px{
+    min-height: 380px;
+}
+
+.min-height-400{
+    min-height: 400px;
+}
+
+.min-height-420{
+    min-height: 420px;
+}
+
+.min-height-440{
+    min-height: 440px;
+}
+
+.min-height-460{
+    min-height: 460px;
+}
+
+.min-height-480{
+    min-height: 480px;
+}
+
+.min-height-500{
+    min-height: 500px;
+}
+
+.min-height-520{
+    min-height: 520px;
+}
+
+.min-height-540{
+    min-height: 540px;
+}
+
+.min-height-560{
+    min-height: 560px;
+}
+
+.min-height-580{
+    min-height: 580px;
+}
+
+.min-height-600{
+    min-height: 600px;
+}
+
+.min-height-620{
+    min-height: 620px;
+}
+
+.min-height-640{
+    min-height: 640px;
+}
+
+.min-height-680{
+    min-height: 680px;
+}
+
+.min-height-700{
+    min-height: 700px;
+}
+
+.min-height-720{
+    min-height: 720px;
+}
+
+.min-height-740{
+    min-height: 740px;
+}
+
+.min-height-760{
+    min-height: 760px;
+}
+
+.min-height-780{
+    min-height: 780px;
+}
+
+.min-height-800{
+    min-height: 800px;
+}
+
+.max-height-320{
+    max-height: 320px;
+}
+
+.max-height-340{
+    max-height: 340px;
+}
+
+.max-height-360{
+    max-height: 360px;
+}
+
+.max-height-380px{
+    max-height: 380px;
+}
+
+.max-height-400{
+    max-height: 400px;
+}
+
+.max-height-420{
+    max-height: 420px;
+}
+
+.max-height-440{
+    max-height: 440px;
+}
+
+.max-height-460{
+    max-height: 460px;
+}
+
+.max-height-480{
+    max-height: 480px;
+}
+
+.max-height-500{
+    max-height: 500px;
+}
+
+.max-height-520{
+    max-height: 520px;
+}
+
+.max-height-540{
+    max-height: 540px;
+}
+
+.max-height-560{
+    max-height: 560px;
+}
+
+.max-height-580{
+    max-height: 580px;
+}
+
+.max-height-600{
+    max-height: 600px;
+}
+
+.max-height-620{
+    max-height: 620px;
+}
+
+.max-height-640{
+    max-height: 640px;
+}
+
+.max-height-680{
+    max-height: 680px;
+}
+
+.max-height-700{
+    max-height: 700px;
+}
+
+.max-height-720{
+    max-height: 720px;
+}
+
+.max-height-740{
+    max-height: 740px;
+}
+
+.max-height-760{
+    max-height: 760px;
+}
+
+.max-height-780{
+    max-height: 780px;
+}
+
+.max-height-800{
+    max-height: 800px;
+}
+
 .all-fit{
     width: fit-content;
     height: fit-content;
