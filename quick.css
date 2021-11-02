@@ -3790,7 +3790,6 @@
 
 
 /* scroll */
-
 .scrollbar::-webkit-scrollbar{
     background-color: transparent;
 }
@@ -3895,6 +3894,11 @@
     background-clip: content-box;
 }
 
+@media only screen and (max-width: 1024px){
+    .scrollbar::-webkit-scrollbar{
+        display: none;
+    }
+}
 
 
 
