@@ -3883,6 +3883,10 @@
     background-color: var(--details);
 }
 
+.bg-color{
+    background-color: var(--bg);
+}
+
 .bg-color-white{
     background-color: #fff;
 }
