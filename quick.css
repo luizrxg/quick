@@ -409,7 +409,7 @@
 }
 
 .border-color-3{
-    border-color: var(--tertiaryColor);
+    border-color: var(--details);
 }
 
 .border-color-4{
@@ -437,7 +437,7 @@
 }
 
 .border-bot-color-3{
-    border-bottom-color: var(--tertiaryColor);
+    border-bottom-color: var(--details);
 }
 
 .border-bot-color-4{
@@ -465,7 +465,7 @@
 }
 
 .border-top-color-3{
-    border-top-color: var(--tertiaryColor);
+    border-top-color: var(--details);
 }
 
 .border-top-color-4{
@@ -493,7 +493,7 @@
 }
 
 .border-left-color-3{
-    border-left-color: var(--tertiaryColor);
+    border-left-color: var(--details);
 }
 
 .border-left-color-4{
@@ -521,7 +521,7 @@
 }
 
 .border-right-color-3{
-    border-right-color: var(--tertiaryColor);
+    border-right-color: var(--details);
 }
 
 .border-right-color-4{
@@ -4157,11 +4157,11 @@
 
 /* fill */
 .fill-1{
-    fill: var(--primaryfill);
+    fill: var(--primaryColor);
 }
 
 .fill-2{
-    fill: var(--secondaryfill);
+    fill: var(--secondaryColor);
 }
 
 .fill-3{
@@ -4195,11 +4195,11 @@
 
 /* stroke */
 .stroke-1{
-    stroke: var(--primarystroke);
+    stroke: var(--primaryColor);
 }
 
 .stroke-2{
-    stroke: var(--secondarystroke);
+    stroke: var(--secondaryColor);
 }
 
 .stroke-3{
