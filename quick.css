@@ -4271,6 +4271,52 @@
 
 
 
+/* icons */
+.icon-1{
+    width: 1rem;
+    min-width: 1rem;
+    height: 1rem;
+    min-height: 1rem;
+}
+
+.icon-2{
+    width: 1.5rem;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    min-height: 1.5rem;
+}
+
+.icon-3{
+    width: 2rem;
+    min-width: 2rem;
+    height: 2rem;
+    min-height: 2rem;
+}
+
+.icon-4{
+    width: 2.5rem;
+    min-width: 2.5rem;
+    height: 2.5rem;
+    min-height: 2.5rem;
+}
+
+.icon-5{
+    width: 3rem;
+    min-width: 3rem;
+    height: 3rem;
+    min-height: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
