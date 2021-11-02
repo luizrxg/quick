@@ -400,16 +400,24 @@
     border-right: solid 5px;
 }
 
-.border-color-primary{
+.border-color-1{
     border-color: var(--primaryColor);
 }
 
-.border-color-secondary{
+.border-color-2{
     border-color: var(--secondaryColor);
 }
 
-.border-color-tertiary{
+.border-color-3{
     border-color: var(--tertiaryColor);
+}
+
+.border-color-4{
+    border-color: var(--mode);
+}
+
+.border-color-5{
+    border-color: var(--bg);
 }
 
 .border-color-white{
@@ -420,16 +428,24 @@
     border-color: #000;
 }
 
-.border-bot-color-primary{
+.border-bot-color-1{
     border-bottom-color: var(--primaryColor);
 }
 
-.border-bot-color-secondary{
+.border-bot-color-2{
     border-bottom-color: var(--secondaryColor);
 }
 
-.border-bot-color-tertiary{
+.border-bot-color-3{
     border-bottom-color: var(--tertiaryColor);
+}
+
+.border-bot-color-4{
+    border-bottom-color: var(--mode);
+}
+
+.border-bot-color-5{
+    border-bottom-color: var(--bg);
 }
 
 .border-bot-color-white{
@@ -440,16 +456,24 @@
     border-bottom-color: #000;
 }
 
-.border-top-color-primary{
+.border-top-color-1{
     border-top-color: var(--primaryColor);
 }
 
-.border-top-color-secondary{
+.border-top-color-2{
     border-top-color: var(--secondaryColor);
 }
 
-.border-top-color-tertiary{
+.border-top-color-3{
     border-top-color: var(--tertiaryColor);
+}
+
+.border-top-color-4{
+    border-top-color: var(--mode);
+}
+
+.border-top-color-5{
+    border-top-color: var(--bg);
 }
 
 .border-top-color-white{
@@ -460,16 +484,24 @@
     border-top-color: #000;
 }
 
-.border-left-color-primary{
+.border-left-color-1{
     border-left-color: var(--primaryColor);
 }
 
-.border-left-color-secondary{
+.border-left-color-2{
     border-left-color: var(--secondaryColor);
 }
 
-.border-left-color-tertiary{
+.border-left-color-3{
     border-left-color: var(--tertiaryColor);
+}
+
+.border-left-color-4{
+    border-top-color: var(--mode);
+}
+
+.border-left-color-5{
+    border-top-color: var(--bg);
 }
 
 .border-left-color-white{
@@ -480,16 +512,24 @@
     border-left-color: #000;
 }
 
-.border-right-color-primary{
+.border-right-color-1{
     border-right-color: var(--primaryColor);
 }
 
-.border-right-color-secondary{
+.border-right-color-2{
     border-right-color: var(--secondaryColor);
 }
 
-.border-right-color-tertiary{
+.border-right-color-3{
     border-right-color: var(--tertiaryColor);
+}
+
+.border-right-color-4{
+    border-top-color: var(--mode);
+}
+
+.border-right-color-5{
+    border-top-color: var(--bg);
 }
 
 .border-right-color-white{
