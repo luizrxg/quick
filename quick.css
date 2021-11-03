@@ -3060,11 +3060,13 @@
 
 @keyframes focus-bg{
     from{
-        background-color: #FFFFFF50;
+        background-color: var(--details);
+        opacity: .5;
     }
 
     to{
-        background-color: transparent
+        background-color: transparent;
+        opacity: 1;
     }
 }
 
