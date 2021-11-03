@@ -4656,6 +4656,7 @@
     user-select: none;
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth;
+    word-break: break-all;
 }
 
 html{
