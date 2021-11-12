@@ -4676,6 +4676,7 @@
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth;
     word-break: break-all;
+    -webkit-tap-highlight-color: transparent;
 }
 
 html{
