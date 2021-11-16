@@ -3034,10 +3034,6 @@
 
 
 /* inputs */
-.inp{
-    box-sizing: border-box;
-}
-
 .inp::-webkit-input-placeholder{
     opacity: 70%;
 }
@@ -3076,7 +3072,7 @@
 }
 
 .inp[type="file"]{
-    
+
 }
 
 .inp[type="range"]:hover{
