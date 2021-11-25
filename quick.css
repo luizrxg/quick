@@ -599,28 +599,28 @@
 }
 
 .btn-1{
-    color: var(--btnsecondary);
-    background-color: var(--btnprimary);
+    color: var(--secondaryBtn);
+    background-color: var(--primaryBtn);
 }
 
 .btn-2{
-    color: var(--btnsecondary);
+    color: var(--secondaryBtn);
     background-color: transparent;
-    border: solid 2px var(--btnsecondary);
+    border: solid 2px var(--secondaryBtn);
 }
 
 .btn-3{
-    color: var(--btnsecondary);
-    background-color: var(--btnprimary);
-    border: solid 2px var(--btnsecondary);
+    color: var(--secondaryBtn);
+    background-color: var(--primaryBtn);
+    border: solid 2px var(--secondaryBtn);
 }
 
 .btn-4{
-    color: var(--btnprimary);
+    color: var(--primaryBtn);
 }
 
 .btn-5{
-    color: var(--btnsecondary);
+    color: var(--secondaryBtn);
 }
 
 
@@ -3062,13 +3062,13 @@
     border: solid 2.5px transparent;
     background-color: transparent;
     background-clip: content-box;
-    box-shadow: 0px 0px 0px 2px var(--inpprimary);
+    box-shadow: 0px 0px 0px 2px var(--primaryInput);
     cursor: pointer;
 }
 
 .inp[type="checkbox"]:hover{
     opacity: .7;
-    background-color: var(--inpprimary);
+    background-color: var(--primaryInput);
 }
 
 @keyframes focus-bg{
@@ -3084,37 +3084,37 @@
 }
 
 .inp-1{
-    border: solid 2px var(--inpsecondary);
-    color: var(--inpsecondary);
+    border: solid 2px var(--secondaryInput);
+    color: var(--secondaryInput);
     background-color: transparent;
 }
 
 .inp-1:focus{
-    border: solid 2px var(--inpprimary);
-    color: var(--inpprimary);
+    border: solid 2px var(--primaryInput);
+    color: var(--primaryInput);
     animation: focus-bg 1s;
 }
 
 .inp-2{
-    border: solid 2px var(--inpprimary);
-    background-color: var(--inpprimary);
-    color: var(--inpsecondary);
+    border: solid 2px var(--primaryInput);
+    background-color: var(--primaryInput);
+    color: var(--secondaryInput);
 }
 
 .inp-2:focus{
-    border: solid 2px var(--inpsecondary);
+    border: solid 2px var(--secondaryInput);
 }
 
 .inp-3{
-    border: solid 2px var(--inpsecondary);
-    background-color: var(--inpprimary);
-    color: var(--inpsecondary);
+    border: solid 2px var(--secondaryInput);
+    background-color: var(--primaryInput);
+    color: var(--secondaryInput);
 }
 
 .inp-3:focus{
-    border: solid 2px var(--inpprimary);
-    background-color: var(--inpsecondary);
-    color: var(--inpprimary);
+    border: solid 2px var(--primaryInput);
+    background-color: var(--secondaryInput);
+    color: var(--primaryInput);
 }
 
 .inp-4{
@@ -3129,14 +3129,14 @@
 }
 
 .inp-5{
-    border-bottom: solid 2px var(--inpsecondary);
-    color: var(--inpsecondary);
+    border-bottom: solid 2px var(--secondaryInput);
+    color: var(--secondaryInput);
     background-color: transparent;
 }
 
 .inp-5:focus{
-    border-bottom: solid 2px var(--inpprimary);
-    color: var(--inpprimary);
+    border-bottom: solid 2px var(--primaryInput);
+    color: var(--primaryInput);
     animation: focus-bg 1s;
 }
 
@@ -4164,46 +4164,46 @@
 }
 
 .scrollbar-1::-webkit-scrollbar-track{
-    background-color: var(--scrollsecondary);
+    background-color: var(--secondaryScroll);
 }
 
 .scrollbar-1::-webkit-scrollbar-thumb{
-    background-color: var(--scrollprimary);
+    background-color: var(--primaryScroll);
     border-radius: 1rem;
     border: solid 3px transparent;
     background-clip: content-box;
 }
 
 .scrollbar-2::-webkit-scrollbar-track{
-    background-color: var(--scrollprimary);
+    background-color: var(--primaryScroll);
 }
 
 .scrollbar-2::-webkit-scrollbar-thumb{
-    background-color: var(--scrollsecondary);
+    background-color: var(--secondaryScroll);
     border-radius: 1rem;
     border: solid 3px transparent;
     background-clip: content-box;
 }
 
 .scrollbar-3::-webkit-scrollbar-track{
-    background-color: var(--scrollsecondary);
+    background-color: var(--secondaryScroll);
     border-radius: 1rem;
 }
 
 .scrollbar-3::-webkit-scrollbar-thumb{
-    background-color: var(--scrollprimary);
+    background-color: var(--primaryScroll);
     border-radius: 1rem;
     border: solid 3px transparent;
     background-clip: content-box;
 }
 
 .scrollbar-4::-webkit-scrollbar-track{
-    background-color: var(--scrollprimary);
+    background-color: var(--primaryScroll);
     border-radius: 1rem;
 }
 
 .scrollbar-4::-webkit-scrollbar-thumb{
-    background-color: var(--scrollsecondary);
+    background-color: var(--secondaryScroll);
     border-radius: 1rem;
     border: solid 3px transparent;
     background-clip: content-box;
@@ -4214,7 +4214,7 @@
 }
 
 .scrollbar-5::-webkit-scrollbar-thumb{
-    background-color: var(--scrollprimary);
+    background-color: var(--primaryScroll);
     border-radius: 1rem;
     border: solid 3px transparent;
     background-clip: content-box;
@@ -4225,7 +4225,7 @@
 }
 
 .scrollbar-6::-webkit-scrollbar-thumb{
-    background-color: var(--scrollsecondary);
+    background-color: var(--secondaryScroll);
     border-radius: 1rem;
     border: solid 3px transparent;
     background-clip: content-box;
@@ -4693,12 +4693,17 @@
 }
 
 html{
-    --btnprimary: #000;
-    --btnsecondary: #fff;
-    --inpprimary: #000;
-    --inpsecondary: #fff;
-    --scrollprimary: #000;
-    --scrollsecondary: #fff;
+    --primaryBtn: #000;
+    --secondaryBtn: #fff;
+    --primaryInput: #000;
+    --secondaryInput: #fff;
+    --primaryScroll: #000;
+    --secondaryScroll: #fff;
+    --primaryColor: #00F;
+    --secondaryColor: #0F0;
+    --mode: #000;
+    --details: #FFF;
+    --bg: #444;
 }
 
 html, body, #root{
