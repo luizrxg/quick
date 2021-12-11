@@ -4280,6 +4280,30 @@
     box-shadow: 0px 0px 15px #FFF;
 }
 
+.f-shadow-1{
+    filter: drop-shadow(0px 0px 5px #000)
+}
+
+.f-shadow-2{
+    filter: drop-shadow(0px 0px 10px #000)
+}
+
+.f-shadow-3{
+    filter: drop-shadow(0px 0px 15px #000)
+}
+
+.f-shadow-4{
+    filter: drop-shadow(0px 0px 5px #FFF)
+}
+
+.f-shadow-5{
+    filter: drop-shadow(0px 0px 10px #FFF)
+}
+
+.f-shadow-6{
+    filter: drop-shadow(0px 0px 15px #FFF)
+}
+
 
 
 
@@ -4691,7 +4715,7 @@
     border: 0;
     outline: 0;
     -webkit-appearance: none;
-    -webkit-font-smoothing: antialiasing;
+    // -webkit-font-smoothing: antialiasing;
     text-decoration: none;
     background-color: transparent;
     box-sizing: border-box;
@@ -4703,17 +4727,17 @@
 }
 
 html{
-    --primaryColor: #aaa;
-    --secondaryColor: #aaa;
-    --primaryBtn: #aaa;
-    --secondaryBtn: #aaa;
-    --primaryInput: #aaa;
-    --secondaryInput: #aaa;
-    --primaryScroll: #aaa;
-    --secondaryScroll: #aaa;
-    --mode: #aaa;
-    --details: #aaa;
-    --bg: #aaa;
+    --primaryColor: #4f30a7;
+    --secondaryColor: #321d6e;
+    --primaryBtn: #fff;
+    --secondaryBtn: #000;
+    --primaryInput: #fff;
+    --secondaryInput: #000;
+    --primaryScroll: #fff;
+    --secondaryScroll: #000;
+    --mode: #171717;
+    --details: #fff;
+    --bg: #FFF;
 }
 
 html, body, #root{
