@@ -2266,22 +2266,22 @@
 
 .flex-row{
     display: flex;
-    flex-direction: row;
+    flex: row;
 }
 
 .flex-row-rev{
     display: flex;
-    flex-direction: row-reverse;
+    flex: row-reverse;
 }
 
 .flex-col{
     display: flex;
-    flex-direction: column;
+    flex: column;
 }
 
 .flex-col-rev{
     display: flex;
-    flex-direction: column-reverse;
+    flex: column-reverse;
 }
 
 .gap-1{
@@ -4742,7 +4742,7 @@ html{
 
 html, body, #root{
     display: flex;
-    flex-direction: column;
+    flex: column;
     width: 100%;
     height: 100%;
     min-height: 560px;
