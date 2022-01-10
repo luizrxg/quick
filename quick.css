@@ -2266,22 +2266,22 @@
 
 .flex-row{
     display: flex;
-    flex: row;
+    flex-direction: row;
 }
 
 .flex-row-rev{
     display: flex;
-    flex: row-reverse;
+    flex-direction: row-reverse;
 }
 
 .flex-col{
     display: flex;
-    flex: column;
+    flex-direction: column;
 }
 
 .flex-col-rev{
     display: flex;
-    flex: column-reverse;
+    flex-direction: column-reverse;
 }
 
 .gap-1{
